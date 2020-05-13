@@ -11,8 +11,7 @@
         "access_key":       "",
         "secret_key":       ""
       },
-      "bucket_name":        "cryosharp-bosh-lite",
-      "destinations":       ["eu-west-1"]
+      "bucket_name":        "cryosharp-bosh-stemcells"
     }
   ]
 }
