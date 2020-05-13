@@ -1,0 +1,18 @@
+{
+  "ami_configuration": {
+    "description":          "Cryosharp bosh lite stemcell for AWS",
+    "virtualization_type":  "hvm",
+    "visibility":           "public"
+  },
+  "ami_regions": [
+    {
+      "name":               "eu-west-1",
+      "credentials": {
+        "access_key":       "",
+        "secret_key":       ""
+      },
+      "bucket_name":        "cryosharp-bosh-lite",
+      "destinations":       ["eu-west-1"]
+    }
+  ]
+}
